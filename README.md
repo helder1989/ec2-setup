@@ -57,7 +57,7 @@ Observação: Ao verificar a documentação oficial do **Terraform** (https://ww
 Para eliminar e deletar todos os recursos que foram criados, basta executar o comando **terraform destroy** no terminal. Isso irá desfazer todas as alterações feitas na infraestrutura.
 
 
-utils/ec2-network.png (utils/ec2-network.png.jpg) # Estamos implementação conforme
+[utils/ec2-network.png] (utils/ec2-network.png.jpg) # Estamos implementação conforme
 
 
 
