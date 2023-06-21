@@ -27,7 +27,7 @@ Em conjunto, esses conceitos de trabalho para garantir que os sistemas e serviç
 
 **A seguir será apresentado uma explicação básica de cada recurso no código:**
 
-**1)** Variáveis globais: A configuração começa definindo duas variáveis globais: **AWS_TAGS e PROJECT_NAME**. A variável **AWS_TAGS** é um mapa que define as tags da AWS para os recursos criados. A variável PROJECT_NAME define o nome do projeto.
+**1)** Variáveis globais: A configuração começa definindo duas variáveis globais: **AWS_TAGS e PROJECT_NAME**. A variável **AWS_TAGS** é um mapa que define as tags da AWS para os recursos criados. A variável **PROJECT_NAME** define o nome do projeto.
 
 **2)** Configuração de Rede da EC2:
 
@@ -47,7 +47,7 @@ O recurso **aws_security_group** cria um grupo de segurança para a instância E
 
 **4)** Confuguração da instância EC2:
 
-Finalmente, o recurso **aws_instance** cria a instância EC2. A AMI (Amazon Machine Image) é definida como **"ami-035ee706ea00934cf"**, o tipo de instância é "t3.micro", a subnet é definida como a sub-rede pública criada anteriormente e a chave de acesso é definida como **"AcessoHelder"**. O grupo de segurança da instância é definido como o grupo de segurança criado anteriormente. A tag da instância é definida usando o valor da variável **PROJECT_NAME**.
+Finalmente, o recurso **aws_instance** cria a instância EC2. A AMI (Amazon Machine Image) é definida como **"ami-035ee706ea00934cf"** (imagem customizada que criei), o tipo de instância é "t3.micro", a subnet é definida como a sub-rede pública criada anteriormente e a chave de acesso é definida como **"AcessoHelder"**. O grupo de segurança da instância é definido como o grupo de segurança criado anteriormente. A tag da instância é definida usando o valor da variável **PROJECT_NAME**.
 
 Este código cria uma infraestrutura básica para uma instância EC2, incluindo uma VPC, sub-rede pública, tabela de rota, gateway de internet e grupo de segurança. 
 
@@ -57,7 +57,7 @@ Observação: Ao verificar a documentação oficial do **Terraform** (https://ww
 Para eliminar e deletar todos os recursos que foram criados, basta executar o comando **terraform destroy** no terminal. Isso irá desfazer todas as alterações feitas na infraestrutura.
 
 
-[utils/ec2-network.png] (utils/ec2-network.png.jpg) # Estamos implementação conforme
+[ec2-network](ec2-network) # Estamos implementação conforme a ilustração. 
 
 
 
