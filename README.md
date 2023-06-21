@@ -6,7 +6,7 @@ Sobre o projeto, inicialmente executei o processo manualmente através do consol
 
 **Ao estudar o Terraform, pude compreender que essa ferramenta é uma poderosa solução para automação de infraestrutura, permitindo o provisionamento e gerenciamento de recursos de forma eficiente. Com o Terraform, é possível criar conjuntos de arquivos contendo blocos de código que podem ser executados em várias contas da AWS simultaneamente, além de facilitar a replicação do código.**
 
-Para ilustrar um caso de uso, podemos imaginar a construção de uma casa personalizada de alta qualidade, porém sem um projeto projetado. Nesse cenário, seria difícil replicar a construção de uma segunda casa com as mesmas características e padrões da primeira (essa foi a limitação que encontrou ao utilizar o console da AWS). No entanto, o Terraform resolve esse problema, viabilizando a criação de projetos, documentos e arquiteturas por meio de código. Com o Terraform, é possível gerenciar de forma eficiente a infraestrutura em provedores como a AWS.
+Para ilustrar um caso de uso, podemos imaginar a construção de uma casa personalizada de alta qualidade, porém sem um projeto. Nesse cenário, seria difícil replicar a construção de uma segunda casa com as mesmas características e padrões da primeira (essa foi a limitação que encontrei ao usar o console da AWS). No entanto, o Terraform resolve esse problema, viabilizando a criação de projetos, documentos e arquiteturas por meio de código. Com o Terraform, é possível gerenciar de forma eficiente a infraestrutura em provedores como a AWS.
 
 **Dessa forma, ao utilizar o Terraform, é possível obter uma abordagem mais automatizada, consistente e escalável para o provisionamento e gerenciamento dos recursos de infraestrutura na AWS.**
 
