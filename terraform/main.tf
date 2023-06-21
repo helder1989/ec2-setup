@@ -92,7 +92,7 @@ resource "aws_instance" "in8-ec2-test" {
   ami = "ami-035ee706ea00934cf" # ID da minha imagem customizada
   instance_type = "t3.micro"
   subnet_id = aws_subnet.public-subnet.id
-  key_name = "AcessoHelder"
+  key_name = "HelderEc2-setup"
 
   vpc_security_group_ids = [aws_security_group.ec2-security-group.id]
 
